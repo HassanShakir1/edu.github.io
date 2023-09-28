@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  right: 0%;
+  padding: 0rem 1.5rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0rem 1rem;
+  color: #233d63;
+}
+a:hover {
+  text-decoration: underline #dc3545;
+  color: #dc3545;
+}
+a:active {
+  text-decoration: underline #dc3545;
+  color: #dc3545;
+}
+.icon {
+  margin-left: 8rem;
+}
+input {
+  border: none;
+}
+.img {
+  background-image: url(./desktop-wallpaper-autodesk-website-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 6rem;
+}
+.heading {
+  display: flex;
+  align-items: flex-end;
+  height: 40vh;
+  margin: 0rem 2rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-style: initial;
+  color: aliceblue;
+}
+.te {
+  display: flex;
+  align-items: flex-end;
+  height: 15vh;
+  margin: 0rem 2rem;
+  font-size: 1.25rem;
+  font-style: initial;
+  color: aliceblue;
+  word-spacing: 0.2rem;
+  line-height: 1.75rem;
+}
+.but {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0rem 1rem;
+  padding: 0rem 1rem;
+  align-items: end;
+  height: 13vh;
+}
+button {
+  font-size: 1.5rem;
+  margin: 0rem 0.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: white; /* You may also want to set the text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  /* font-size: 16px; /* Adjust font size as needed */
+}
+.but1:hover {
+  border: solid 1px black;
+  background-color: #dc3545;
+  border-radius: 50%;
+  color: black;
+}
+.but2:hover {
+  border: solid 1px black;
+  background-color: #dc3545;
+  border-radius: 50%;
+  color: black;
+}
